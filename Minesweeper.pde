@@ -27,7 +27,7 @@ void setup(){
 
 public void setMines(){
   int NUM_MINES = 0;
-  while (NUM_MINES < 2){
+  while (NUM_MINES < 30){
     int r = (int)(Math.random() * NUM_ROWS); 
     int c = (int)(Math.random() * NUM_COLS);
     
